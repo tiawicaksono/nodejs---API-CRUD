@@ -36,6 +36,11 @@ module.exports = {
       database: process.env.DB_DATABASE,
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
+      // host: "localhost",
+      // port: "5432",
+      // database: "db_pos",
+      // user: "postgres",
+      // password: "h3l10s_db",
     },
     pool: {
       min: 2,
